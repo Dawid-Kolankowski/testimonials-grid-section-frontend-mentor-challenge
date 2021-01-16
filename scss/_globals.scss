@@ -1,0 +1,36 @@
+html {
+  font-size: 13px;
+  box-sizing: border-box;
+  line-height: 1.4;
+}
+
+* {
+  box-sizing: inherit;
+  margin: 0;
+  font-family: 'Barlow Semi Condensed', sans-serif;
+}
+
+body {
+  background-color: $lightGrayishBlue;
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+}
+
+h1 {
+  font-size: 1.538rem;
+  font-weight: 600;
+  margin-bottom: 2rem;
+}
+
+.text-white {
+  color: $white;
+}
+
+.text-gray {
+  color: $veryDarkGrayisBlue;
+}
+
+.text-lightgray {
+  color: $lightGrayishBlueOp;
+}

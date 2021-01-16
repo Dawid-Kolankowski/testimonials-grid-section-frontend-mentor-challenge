@@ -1,0 +1,36 @@
+.testimonial {
+  border-radius: 0.8rem;
+  padding: 1.846rem 2.308rem;
+  height: 100%;
+
+  &--purple {
+    background-color: $moderateViolet;
+  }
+
+  &--white {
+    background-color: $white;
+  }
+
+  &--grayblue {
+    background-color: $veryDarkGrayisBlue;
+  }
+
+  &--darkblue {
+    background-color: $veryDarkBlackishBlue;
+  }
+
+  &__user {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1.5rem;
+    & > div {
+      margin-left: 1rem;
+    }
+  }
+
+  &__image {
+    border-radius: 50%;
+    height: 2.4rem;
+    width: auto;
+  }
+}
